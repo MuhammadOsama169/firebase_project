@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import Counter from './features/counter/Counter'
+import PostsList from './features/posts/PostsList'
+import AddPostsForms from './features/posts/AddPostsForms'
 import './App.css'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <main className="App">
-
+      <AddPostsForms/>
+      <PostsList/>
     </main>
   )
 }
